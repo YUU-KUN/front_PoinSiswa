@@ -108,8 +108,8 @@ export default {
         }
       };
       let form = new FormData();
-      this.axios
-        .post("/logout", form, conf)
+      this.axios  
+        .post("/  ", form, conf)
         .then(response => {
           if (response.data.logged === false || response.data.status === 0) {
             this.$store.commit("logout");

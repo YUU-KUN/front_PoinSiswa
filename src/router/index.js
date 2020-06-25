@@ -14,8 +14,6 @@ import InputPelanggaran from '../views/InputPelanggaran.vue'
 import PoinSiswa from '../views/PoinSiswa.vue'
 
 
-
-
 Vue.use(VueRouter)
 
 const routes = [
